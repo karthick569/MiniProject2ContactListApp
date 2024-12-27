@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Utils.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Test.TC_007_EditingContactsTest">
+        <methods>
+          <include name="ReportInitialization"/>
+          <include name="testdetails"/>
+          <include name="browserClose"/>
+          <include name="reportClose"/>
+          <include name="closeBrowser"/>
+          <include name="EditingContactTest"/>
+          <include name="launchandloaduRL"/>
+          <include name="BrowserLaunch"/>
+          <include name="setup"/>
+          <include name="screenshot"/>
+        </methods>
+      </class> <!-- Test.TC_007_EditingContactsTest -->
+      <class name="Test.TC_005_ContactDeleteTest">
+        <methods>
+          <include name="ContactdeleteTest"/>
+          <include name="ReportInitialization"/>
+          <include name="testdetails"/>
+          <include name="setup"/>
+          <include name="browserClose"/>
+          <include name="reportClose"/>
+          <include name="closeBrowser"/>
+          <include name="launchandloaduRL"/>
+          <include name="BrowserLaunch"/>
+          <include name="screenshot"/>
+        </methods>
+      </class> <!-- Test.TC_005_ContactDeleteTest -->
+      <class name="Test.TC_008_LogOutTest">
+        <methods>
+          <include name="ReportInitialization"/>
+          <include name="testdetails"/>
+          <include name="browserClose"/>
+          <include name="reportClose"/>
+          <include name="closeBrowser"/>
+          <include name="launchandloaduRL"/>
+          <include name="BrowserLaunch"/>
+          <include name="LogOutTest"/>
+          <include name="screenshot"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Test.TC_008_LogOutTest -->
+      <class name="Test.TC_006_ValidContactTest">
+        <methods>
+          <include name="ValidcontactTest"/>
+          <include name="ReportInitialization"/>
+          <include name="testdetails"/>
+          <include name="browserClose"/>
+          <include name="reportClose"/>
+          <include name="closeBrowser"/>
+          <include name="launchandloaduRL"/>
+          <include name="BrowserLaunch"/>
+          <include name="setup"/>
+          <include name="screenshot"/>
+        </methods>
+      </class> <!-- Test.TC_006_ValidContactTest -->
+      <class name="Test.TC_004_ContactAddtionTest">
+        <methods>
+          <include name="ReportInitialization"/>
+          <include name="testdetails"/>
+          <include name="browserClose"/>
+          <include name="reportClose"/>
+          <include name="ContactaddititonTest"/>
+          <include name="closeBrowser"/>
+          <include name="launchandloaduRL"/>
+          <include name="BrowserLaunch"/>
+          <include name="screenshot"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Test.TC_004_ContactAddtionTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
